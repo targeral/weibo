@@ -1,0 +1,24 @@
+<article data-blog>
+<header class="blog-header">
+    <div class="headImg"><img src="images/user1.jpg" alt=""></div>
+    <section class="usrMsg">
+    <div class="username"><a href="">{{username}}</a></div>
+        <div class="message"><time>{{data}}</time>来自<address><p>微博 weibo.com</p></address></div>
+    </section>
+</header>
+<section class="blog-content">
+    <p>{{content}}</p>
+</section>
+<section class="blog-media">
+    {{if img}}
+        {{each img as value i}}
+            <img src={{value.url}} alt="">
+        {{/each}}
+    {{/if}}
+</section>
+<nav>
+    <ul class="blog-nav">
+        <li class="line"><a href="#">收藏</a></li><li class="line"><a href="#">转发{{transmit}}</a></li><li class="line"><a href="#" class="comment">评论{{comment}}</a></li><li><a href="#">赞{{good}}</a></li>
+    </ul>
+</nav>
+</article>

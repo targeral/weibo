@@ -1,0 +1,41 @@
+var Page = 
+{
+    "index" : {
+        "index_weiboHeader" : {
+            "url" : "index/index_weibo-header",
+            "params" :{}
+        },
+        "index_main" : {
+            "url" : "index/index_main",
+            "params" : {}
+        }
+    },
+    "home" : {
+        "home-header" : {
+            "url" : "home/home-header",
+            "params" : {}
+        },
+        "home-blog" : {
+            "url" : "home/home-blog",
+            "params" : {}
+        },
+        "home-fn" : {
+            "url" : "home/home-fn",
+            "params" : {}
+        },
+        "home-aside" : {
+            "url" : "home/home-aside",
+            "params" : {}
+        }
+    },
+    "person" : {
+        "home-header" : {
+            "url" : "home/home-header",
+            "params" : {}
+        },
+        "person" : {
+            "url" : "personal/person",
+            "params" : {}
+        }
+    }
+}

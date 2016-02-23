@@ -1,0 +1,28 @@
+/*TMODJS:{"version":23,"md5":"223d443092641e4532503f5fb8f42c7d"}*/
+template('blog',function($data,$filename
+/**/) {
+'use strict';var $utils=this,$helpers=$utils.$helpers,$escape=$utils.$escape,username=$data.username,data=$data.data,content=$data.content,img=$data.img,$each=$utils.$each,value=$data.value,i=$data.i,transmit=$data.transmit,comment=$data.comment,good=$data.good,$out='';$out+='<article data-blog> <header class="blog-header"> <div class="headImg"><img src="images/user1.jpg" alt=""></div> <section class="usrMsg"> <div class="username"><a href="">';
+$out+=$escape(username);
+$out+='</a></div> <div class="message"><time>';
+$out+=$escape(data);
+$out+='</time>来自<address><p>微博 weibo.com</p></address></div> </section> </header> <section class="blog-content"> <p>';
+$out+=$escape(content);
+$out+='</p> </section> <section class="blog-media"> ';
+if(img){
+$out+=' ';
+$each(img,function(value,i){
+$out+=' <img src=';
+$out+=$escape(value.url);
+$out+=' alt=""> ';
+});
+$out+=' ';
+}
+$out+=' </section> <nav> <ul class="blog-nav"> <li class="line"><a href="#">收藏</a></li><li class="line"><a href="#">转发';
+$out+=$escape(transmit);
+$out+='</a></li><li class="line"><a href="#" class="comment">评论';
+$out+=$escape(comment);
+$out+='</a></li><li><a href="#">赞';
+$out+=$escape(good);
+$out+='</a></li> </ul> </nav> </article> ';
+return new String($out);
+});

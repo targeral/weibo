@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"cff8b36535d02fde37f34745f77f7cc9"}*/
+template('index_main','<section id="main"> <div class="container"> <main id="blog"> <a href="" class="note">你有新微博,请点击查看</a> </main> <aside id="aside"> </aside> </div> </section>');

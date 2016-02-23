@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微博注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        body{
+            background: url(images/reg_repeat_bg.png) repeat-x #bee1f5;
+        }
+        #register h1{
+            display: block;
+            width:100px;
+            height: 120px;
+            line-height: 120px;
+            font-style: oblique;
+            color:#000;
+            font-size: 50px;
+            margin:0 auto;
+        }
+        #register .register{
+            width:90%;
+            height: 550px;
+            border-radius: 3px;
+            background: #fff;
+            margin:0 auto;
+            padding-top:20px;
+            position: relative;
+        }
+        #register .register label{
+            height: 40px;
+            line-height: 40px;
+            width:80%;
+            display: block;
+            margin:0 auto 5px;
+        }
+        #register .register label > input[type=text], #register .register label > input[type=password]{
+            width:85%;
+            height: 40px;
+            outline:0;
+            border:1px solid #ccc;
+            display: inline-block;
+            float: right;
+            font-size: 20px;
+        }
+        #register .register input[type=submit] {
+            width:70px;
+            height: 40px;
+            background: #f7671d;
+            border-radius: 3px;
+            color:#fff;
+            font-size: 15px;
+            border:0;
+            outline: 0;
+            position: absolute;
+            right:81px;
+            bottom: 10px;
+            cursor:pointer;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="register">
+        <h1>微博</h1>
+        <section class="register">
+            <form action="addUser.do" method="post">
+            <label for="">用 户 名：<input type="text" size="15" id="username" name="username"/></label>
+            <label for="">密&nbsp;&nbsp;码：<input type="password" size="15" name="password"></label>
+            <label for="">确认密码：<input type="password" size="15" name="password2"></label>
+            <label for="">真实姓名：<input type="text" size="15" name="realname"></label>
+                <label for="">性&nbsp;&nbsp;别：<input type="radio" name="sex" value="男">男<input type="radio" name="sex" value="女">女</label>
+            <label for="">年&nbsp;&nbsp;龄：<input type="text" size="15" name="age"></label>
+            <label for="">个人简介：<input type="text" size="15" name="summary"></label>
+            <label for="">个性签名：<input type="text" size="15" name="sign"></label>
+            <label for="">Email&nbsp; ：<input type="text" size="15" name="email"></label>
+            <label for="">手机号码：<input type="text" size="15" name="phonenumber"></label>
+            <label for="">籍&nbsp;&nbsp;贯：<input type="text" size="15" name="address"></label>
+            <input type="submit" value="提交">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
+
+

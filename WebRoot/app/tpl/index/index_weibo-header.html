@@ -1,0 +1,31 @@
+<header id="weibo-header">
+    <div class="container">
+        <h1>微博</h1>
+        <form action="checklogin.do" method="post" id="form">
+            <div class="login-header" data-model="default">
+                <a href="#" class="login-cross"></a>
+                <ul class="login-nav">
+                    <li><a class="focus" data-msg="default">登录</a></li><li><a data-msg="message">短信登录</a></li>
+                </ul>
+                <div class="login-content default-login">
+                    <label><input type="text" name="username" placeholder="邮箱/会员账号/手机号"></label>
+                    <label><input type="password" name="password" placeholder="请输入密码"></label>
+                </div>
+                <div class="login-content message-login">
+                    <label><input type="tel" placeholder="手机号码,仅支持大陆手机"></label>
+                    <a href="#">获取短信验证码</a>
+                    <input type="text" placeholder="短信验证码" class="login-check">
+                </div>
+            </div>
+            <div class="login-footer">
+                <div class="login-control">
+                    <label><input type="checkbox" checked name="checkbox">记住我</label>
+                    <a href="#">忘记密码</a>
+                </div>
+                <input type="submit" value="登录">
+                <span class="login-hint">还没有微博?<a href="register.html">立即注册</a></span>
+                <span class="login-other">其他登录方式:<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a></span>
+            </div>
+        </form>
+    </div>
+</header>

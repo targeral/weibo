@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"35b7e64ad14aacbecff27cb6922160af"}*/
+template('home/home-fn','<section id="home-fn" class="w73"> <aside> <nav> <ul> <li><a href="#">首页</a></li> <li><a href="#">消息</a></li> <li><a href="#">收藏</a></li> <li><a href="#">赞</a></li> </ul> </nav> <nav> <ul> <li><a href="#">好友圈</a></li> <li><a href="#">群微博</a></li> <li><a href="#">特别关注</a></li> <li><a href="#">游戏</a></li> <li><a href="#">搞笑</a></li> <li><a href="#">资讯</a></li> <li><a href="#">演员</a></li> <li><a href="#">老师</a></li> </ul> </nav> </aside> </section>');

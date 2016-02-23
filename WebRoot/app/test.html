@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .comment{
+            width:500px;
+            background:#f2f2f5;
+        }
+        .comment .comment-textarea {
+            height: 80px;
+            padding-top:10px;
+            box-sizing:border-box;
+        }
+        .comment .comment-textarea label{
+            display: block;
+            text-align: center;
+        }
+        .comment .comment-textarea label input{
+            height: 30px;
+            line-height: 30px;
+            width:80%;
+        }
+        .comment .comment-textarea > a{
+            display: block;
+            width:55px;
+            height: 30px;
+            line-height: 30px;
+            background: #ff8140;
+            border-radius: 3px;
+            text-align: center;
+            text-decoration: none;
+            color:#fff;
+            float: right;
+            margin-top:3px;
+            margin-right:60px;
+        }
+        .comment .comment-data{
+            width:100%;
+            border-top:1px solid #ccc;
+        }
+        .comment .comment-data li{
+            width:80%;
+            display: block;
+            margin:0 auto;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #ccc;
+        }
+        .comment .comment-data .comment-user, .comment .comment-data .comment-content{
+            display: inline-block;
+            font-size: 15px;
+        }
+        .comment .comment-data .comment-user{
+            width:10%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="comment">
+        <section class="comment-textarea">
+            <label for=""><input type="text"></label>
+            <a href="#">评论</a>
+        </section>
+        <section class="comment-data">
+            <ul>
+                <li><span class="comment-user">1</span>:<p class="comment-content">lala</p></li>
+                <li><span class="comment-user">1</span>:<p class="comment-content">lala</p></li>
+            </ul>
+        </section>
+    </section>
+</body>
+</html>

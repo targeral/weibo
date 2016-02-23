@@ -1,0 +1,13 @@
+<section class="commentPlace">
+        <section class="comment-textarea">
+            <label for=""><input type="text"></label>
+            <a href="#" class="CommentPost">评论</a>
+        </section>
+        <section class="comment-data">
+            <ul>
+                {{each comment as value i}}
+                    <li><span class="comment-user">{{value.username}}</span>:<p class="comment-content">{{value.content}}</p></li>
+                {{/each}}
+            </ul>
+        </section>
+    </section>

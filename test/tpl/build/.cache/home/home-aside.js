@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"c8c3d09c676f5a014bf95282a0c8f7e8"}*/
+template('home/home-aside','<aside id="home-aside"> <section class="user"> <header> <div class="head-sculpture"> <a href=""><img src="" alt=""></a> </div> <a href="#" class="username">八哥专用</a> </header> <ul class="user-data"> <li><a href="">29</a><span>关注</span></li> <li><a href="">5</a><span>粉丝</span></li> <li><a href="">20</a><span>微博</span></li> </ul> </section> <section class="follow"></section> </aside>');

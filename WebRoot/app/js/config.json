@@ -1,0 +1,32 @@
+var Config = 
+{
+    "template" : {
+            "UsernameTip" : {
+                "url" : "tip",
+                "params" : {
+                    "content" : "请输入登录名"
+                }
+            },
+            "PasswordTip" : {
+                "url" : "tip",
+                "params" : {
+                    "content" : "请输入密码"
+                }
+            },
+            "TelephoneTip" : {
+                "url" : "tip",
+                "params" : {
+                    "content" : "请输入手机号"
+                }
+            }
+    },
+    "Login" : {
+        "header" : ".login-header",
+        "data_model" : "data-model",
+        "data_msg" : "data-msg",
+        "currentTargetTagName" : "A",
+        "dataModel_Default" : "default",
+        "dataModel_Message" : "message",
+        "CSS_Class_focus" : "focus"
+    }
+}

@@ -1,0 +1,136 @@
+#person {
+    height: 1000px;
+    margin-top:80px;
+}
+#person > header{
+    display: block;
+    box-sizing:border-box;
+    background: #fff;
+    box-shadow: 0 1px 2px #ccc;
+}
+#person > header section.header{
+    height: 300px;
+    background:url(../images/user/head-sculpture-big.jpg);
+    box-sizing:border-box;
+    padding-top:70px;
+    text-align: center;
+}
+#person .head-sculpture{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    border:3px solid rgba(255,255,255,0.4);
+    margin:0 auto;
+}
+#person .header h2,#person .header p{
+    color:#fff;
+}
+#person .header h2{
+    font-size: 20px;
+    line-height: 2;
+}
+#person .header p{
+    font-size: 14px;
+    line-height: 2;
+}
+#person > header > nav{
+    height: 50px;
+}
+#person > header > nav > ul{
+    width:50%;
+    margin:0 auto;
+}
+#person > header > nav > ul > li{
+    display: inline-block;
+    width:32%;
+}
+#person > header > nav > ul > li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color:#000;
+    width:40%;
+    margin:0 auto;
+    box-sizing:border-box;
+    transition:border-bottom 0.1s ease;
+}
+#person > header > nav > ul > li a.focus{
+    border-bottom: 2px solid #f7671d;
+    font-weight: bold;
+}
+#person > header > nav > ul > li a:hover{
+    border-bottom: 2px solid #f7671d;
+}
+/*#person content*/
+#person .content{
+    padding-top:20px;
+    height: auto;
+}
+#person .content > section{
+    vertical-align: top;
+    display: inline-block;
+    height: 300px;
+}
+#person .person-data{
+    width:32%;
+    margin-right: 2%;
+}
+.person-data nav{
+    width:100%;
+    height: 60px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.person-data .user-data{
+    height: 60px;
+    padding-left: 0%;
+    text-align: center;
+    padding-top:13px;
+}
+.person-data .person-pic{
+    width:100%;
+    background: #fff;
+    border-radius: 3px;
+}
+.person-pic a{
+    display: block;
+    width:100%;
+    height: 40px;
+    line-height: 40px;
+    box-sizing:border-box;
+    color:#000;
+    text-decoration: none;
+}
+.person-pic a:nth-of-type(1){
+    padding-left:10px;
+    text-align:left;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+.person-pic a:nth-of-type(2) {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 13px;
+}
+.person-pic a:nth-of-type(2) span{
+    padding-left:10px;
+}
+.person-pic .pic{
+    height: 150px;
+    display: block;
+}
+#person .person-blog{
+    display: inline-block;
+    width:65.5%;
+}
+.person-blog #blog{
+    padding-top:20px;
+}
+.person-blog .triangle:before{
+    border-bottom-color: rgba(70,149,194,0.4);
+}
